@@ -1,0 +1,31 @@
+{
+  "name": "webpackdemo",
+  "version": "1.0.0",
+  "description": "webpack demo",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohanrathod-robosoft/webpackdemo.git"
+  },
+  "author": "Mohan Rathod <mohan.rathod@robosoftin.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohanrathod-robosoft/webpackdemo/issues"
+  },
+  "homepage": "https://github.com/mohanrathod-robosoft/webpackdemo#readme",
+  "devDependencies": {
+    "@babel/core": "7.10.2",
+    "@babel/preset-env": "7.10.2",
+    "@babel/preset-react": "7.10.1",
+    "babel-loader": "8.1.0",
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.11"
+  },
+  "dependencies": {
+    "webpack-dev-server": "3.11.0"
+  }
+}
